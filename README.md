@@ -1,0 +1,2 @@
+# AndroidBaseQuickAdapterDemo
+Android使用BaseSectionQuickAdapter动态生成不规则宫格
