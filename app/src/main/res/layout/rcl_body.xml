@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@color/design_default_color_secondary"
+    android:padding="1dp"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tv_drugcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_drugname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/tv_drugcode"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:id="@+id/tvqty_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/tv_drugname"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="2dp" />
+
+    <TextView
+        android:id="@+id/tv_qtyl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintTop_toBottomOf="@+id/tv_drugname"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="10dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
